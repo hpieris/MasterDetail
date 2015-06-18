@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InboxThrow</string>
+    <string name="title_contact_detail">Contact Detail</string>
+
+
+    //main menu
+    <string name="action_inbox"></string>
+    <string name="action_contacts">Settings</string>
+    <string name="action_broadcast">Settings</string>
+    <string name="action_settings">Search</string>
+
+</resources>

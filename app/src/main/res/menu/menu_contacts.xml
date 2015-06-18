@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_status"
+    android:icon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+    app:showAsAction="always"
+    android:title="Status"
+    >
+    <menu>
+        <item
+            android:id="@+id/menuSortNewest"
+            android:title="Online" />
+        <item
+            android:id="@+id/menuSortRating"
+            android:title="Offline" />
+    </menu>
+</item>
+
+<item android:id="@+id/action_inbox"
+    android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+    android:title="@string/action_inbox"
+    app:showAsAction="always"
+  />
+    <item android:id="@+id/action_contacts"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="@string/action_contacts"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_broadcast"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="@string/action_broadcast"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:title="@string/action_settings"
+        />
+
+
+</menu>
