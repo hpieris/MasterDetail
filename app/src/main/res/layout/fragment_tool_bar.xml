@@ -10,7 +10,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="#ff6d7fe2"
+        android:background="@color/koro_blue"
         app:contentInsetStart="16dp"
         app:theme="@style/ThemeOverlay.AppCompat"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -31,7 +31,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:id="@+id/imageButton"
-                android:src="@drawable/toolbar_logo"
+                android:background="@drawable/toolbar_logo"
                 android:layout_marginTop="8dp"
 
 
