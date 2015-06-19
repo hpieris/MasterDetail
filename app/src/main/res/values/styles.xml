@@ -1,13 +1,10 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
-        <item name="actionBarStyle">@style/KoroActionBar</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
 
     </style>
 
-    <style name="KoroActionBar" parent="Widget.AppCompat.Light.ActionBar">
-        <item name="background">@color/koro_blue</item>
-        <item name="displayOptions">useLogo|showHome</item>
-    </style>
+
 
 </resources>

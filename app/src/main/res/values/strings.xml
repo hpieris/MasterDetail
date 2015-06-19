@@ -9,4 +9,10 @@
     <string name="action_broadcast">Settings</string>
     <string name="action_settings">Search</string>
 
+    <string-array name="user_status">
+        <item>Online</item>
+        <item>Offline</item>
+        <item>Forward</item>
+    </string-array>
+
 </resources>

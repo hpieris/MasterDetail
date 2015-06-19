@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="co.ovlu.toolbarthrow.TollBarFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#ff6d7fe2"
+        app:contentInsetStart="16dp"
+        app:theme="@style/ThemeOverlay.AppCompat"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@+id/toolbar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageButton"
+                android:src="@drawable/toolbar_logo"
+                android:layout_marginTop="8dp"
+
+
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+
+                />
+
+            <Spinner
+                android:id="@+id/spinner_nav"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:entries="@array/user_status"
+                android:background="@drawable/toolbar_logo"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:gravity="left|center"
+            android:text="Toolbar Title"
+            android:textColor="@color/koro_blue"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"/>
+    </android.support.v7.widget.Toolbar>
+
+
+
+</FrameLayout>

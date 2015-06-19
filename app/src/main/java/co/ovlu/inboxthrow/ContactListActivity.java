@@ -58,13 +58,6 @@ implements ContactListFragment.Callbacks {
         // TODO: If exposing deep links into your app, handle intents here.
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu items for use in the action bar
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_contacts, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
 
     /**
      * Callback method from {@link ContactListFragment.Callbacks}
